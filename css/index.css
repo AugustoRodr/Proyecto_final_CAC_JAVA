@@ -1,11 +1,68 @@
 * {
   padding: 0;
-  margin: o;
+  margin: 0;
   text-decoration: none;
   color: black;
 }
 
-header img {
+/* Estilo a barra de navegacion */
+.header {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
   width: 50px;
   height: 50px;
+}
+
+.header .nav-bar {
+  border: 3px solid yellow;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.header .nav-bar a {
+  border: 1px solid black;
+  margin: 0 2%;
+  padding: 1% 2%;
+}
+
+/* Estilo imagen principal */
+.conteiner-imgInicio img {
+  width: 98.7vw;
+  height: 450px;
+}
+
+/* Edicion de los lnks */
+.links,
+.info {
+  border: 1px solid black;
+  width: 95%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links .link-info {
+  border: 1px solid red;
+  width: 30%;
+  height: 100%;
+}
+
+.links .link-info>img,
+.info .card-conteiner>img {
+  width: 100%;
+  height: 50%;
+}
+
+/* Edicion de Informacion para el paciente */
+
+.info .card-conteiner {
+  border: 1px solid red;
+  width: 24%;
+  height: 100%;
 }
