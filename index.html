@@ -3,85 +3,181 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="./js/bootstrap.js" defer></script>
     <title>Paginas Principal</title>
   </head>
 
   <body>
-    <header class="header">
-      <img
-        src="./mulimedia/imgs/placeholder-logo.png"
-        alt="logo de la empresa"
-      />
-      <nav class="nav-bar">
-        <a href="#">Afiliados</a>
-        <a href="./templates/turnos.html">Turnos</a>
-        <a href="#">Espacialisacion</a>
-        <a href="./templates/login.html">Iniciar Sesion</a>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Logo de la pagina</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse custom-modify-navbar"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="./templates/turnos.html"
+                  >Turnos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./templates/login.html"
+                  >Iniciar Secion</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Espacialidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Sedes</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
-    <div class="conteiner-imgInicio">
-      <span>Nombre o frase de la pagina</span>
-      <img
-        src="./mulimedia/imgs/placeholder-img.png"
-        alt="Imagen de la pagina"
-      />
-    </div>
     <main>
-      <section class="links">
-        <article class="link-info">
-          <img
-            src="./mulimedia/imgs/placeholder.jpg"
-            alt="links a otra Paginas"
-          />
-          <span>Nombre de enlaces</span>
-        </article>
-        <article class="link-info">
-          <img
-            src="./mulimedia/imgs/placeholder.jpg"
-            alt="links a otra Paginas"
-          />
-          <span>Nombre de enlaces</span>
-        </article>
-        <article class="link-info">
-          <img
-            src="./mulimedia/imgs/placeholder.jpg"
-            alt="links a otra Paginas"
-          />
-          <span>Nombre de enlaces</span>
-        </article>
+      <!-- Carrusel -->
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./mulimedia/imgs/slide-1.jpg"
+              class="d-block w-100"
+              alt="cambiar img"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./mulimedia/imgs/slide-2.jpg"
+              class="d-block w-100"
+              alt="cambiar img"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./mulimedia/imgs/slide-3.jpg"
+              class="d-block w-100"
+              alt="cambiar img"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br />
+      <section>
+        <h2>Informacion para el paciente</h2>
+        <div class="row justify-content-evenly">
+          <div class="card col-md-3 custom-modify-card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-md-3 custom-modify-card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-md-3 custom-modify-card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="row justify-content-evenly">
+          <div class="card col-md-3 custom-modify-card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-md-3 custom-modify-card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card col-md-3 custom-modify-card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
       </section>
       <br />
-      <h2>Informacion para el paciente</h2>
-      <section class="info">
-        <article class="card-conteiner">
-          <img
-            src="./mulimedia/imgs/placeholder.jpg"
-            alt="links a otra Paginas"
-          />
-          <span>Descripcion de la card</span>
-        </article>
-        <article class="card-conteiner">
-          <img
-            src="./mulimedia/imgs/placeholder.jpg"
-            alt="links a otra Paginas"
-          />
-          <span>Descripcion de la card</span>
-        </article>
-        <article class="card-conteiner">
-          <img
-            src="./mulimedia/imgs/placeholder.jpg"
-            alt="links a otra Paginas"
-          />
-          <span>Descripcion de la card</span>
-        </article>
-        <article class="card-conteiner">
-          <img
-            src="./mulimedia/imgs/placeholder.jpg"
-            alt="links a otra Paginas"
-          />
-          <span>Descripcion de la card</span>
-        </article>
+      <section>
+        <h2>Sedes</h2>
       </section>
     </main>
   </body>
