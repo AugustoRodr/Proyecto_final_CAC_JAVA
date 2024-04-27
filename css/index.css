@@ -1,10 +1,49 @@
 .custom-modify-navbar{
   justify-content: end;
 }
+
+.nav-item>a:hover{
+  color: white !important;
+}
+
+.carousel-item{
+  height: 70vh;
+}
+@media screen and (max-width:720px) {
+  .carousel-item{
+    /* background-color: red; */
+    height: 50vh;
+  }
+}
+
 .custom-modify-card{
   transition: all .5s ease;
 }
 
 .custom-modify-card:hover{
   transform: scale(1.1);
+}
+
+.custom-modify-card-img{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* estilo de footer */
+.footer{
+  height: 150px;
+  width: 100vw;
+  background: rgb(0, 0, 102);
+  color: white;
+}
+
+.footer-info-content{
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+a.item-redes{
+  text-decoration: none;
+  color: white;
 }

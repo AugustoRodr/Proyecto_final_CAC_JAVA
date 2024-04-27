@@ -13,7 +13,7 @@
   <body>
     <!-- Navbar -->
     <header>
-      <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <nav class="navbar navbar-expand-md bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Logo de la pagina</a>
           <button
@@ -43,10 +43,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Espacialidades</a>
+                <a class="nav-link active" href="#">Espacialidades</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="#sedes"
                   >Sedes</a
                 >
               </li>
@@ -178,10 +178,13 @@
       </section>
       <br />
       <!-- Cards de Sedes -->
-      <section>
+      <section id="sedes">
         <h2>Sedes</h2>
-        <section>
-          <div class="card" style="width: 18rem">
+        <div class="row justify-content-evenly">
+          <div
+            class="card col-md-3 custom-modify-card-img"
+            style="width: 18rem"
+          >
             <img
               src="./mulimedia/imgs/sede-1.jpg"
               class="card-img-top"
@@ -189,17 +192,71 @@
             />
             <div class="card-body">
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                <span>Nombre de Sede</span><br />
+                Direccion de las sedes.
               </p>
             </div>
           </div>
-        </section>
+          <div
+            class="card col-md-3 custom-modify-card-img"
+            style="width: 18rem"
+          >
+            <img
+              src="./mulimedia/imgs/sede-2.jpg"
+              class="card-img-top"
+              alt="sede-1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <span>Nombre de Sede</span><br />
+                Direccion de las sedes.
+              </p>
+            </div>
+          </div>
+          <div
+            class="card col-md-3 custom-modify-card-img"
+            style="width: 18rem"
+          >
+            <img
+              src="./mulimedia/imgs/sede-3.jpg"
+              class="card-img-top"
+              alt="sede-1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <span>Nombre de Sede</span><br />
+                Direccion de las sedes.
+              </p>
+            </div>
+          </div>
+          <div
+            class="card col-md-3 custom-modify-card-img"
+            style="width: 18rem"
+          >
+            <img
+              src="./mulimedia/imgs/sede-4.jpg"
+              class="card-img-top"
+              alt="sede-1"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                <span>Nombre de Sede</span><br />
+                Direccion de las sedes.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
   <br />
-  <footer>
+  <footer class="footer">
     <h3>Footer</h3>
+    <div class="footer-info-content">
+      <a href="#" class="item-redes">Facebook</a>
+      <a href="#" class="item-redes">Instagram</a>
+      <a href="#" class="item-redes">Twitter</a>
+      <a href="#" class="item-redes">Linkedin</a>
+    </div>
   </footer>
 </html>
