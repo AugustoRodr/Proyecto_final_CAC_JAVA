@@ -32,7 +32,7 @@
 /* estilo de footer */
 .footer{
   height: 150px;
-  width: 100vw;
+  width: 99vw;
   background: rgb(0, 0, 102);
   color: white;
 }
@@ -47,3 +47,4 @@ a.item-redes{
   text-decoration: none;
   color: white;
 }
+

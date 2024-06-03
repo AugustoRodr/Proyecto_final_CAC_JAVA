@@ -1,0 +1,35 @@
+/* Login */
+.cont-formulario{
+    width: 99vw;
+    height: 99vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(66, 204, 197); */
+    background-image: url("../mulimedia/imgs/fondo-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+  
+    opacity: 1;
+    /* Recordar cambiar a none */
+    visibility: none;
+    transition: all 0.3s ease;
+  }
+  
+  .cont-formulario>.cerrar-form{
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .cont-formulario.ocultar{
+    opacity: 0;
+    visibility: hidden;
+  }
