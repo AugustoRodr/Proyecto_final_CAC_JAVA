@@ -1,0 +1,16 @@
+{
+    "accounts":[
+        {
+            "email":"jose.augus.1996@gmail.com",
+            "password":"123456"
+        },
+        {
+            "email":"arnold@gmail.com",
+            "password":"5479"
+        },
+        {
+            "email":"micaela@gmail.com",
+            "password":"0011001"
+        }
+    ]
+}
