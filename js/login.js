@@ -8,7 +8,7 @@ document.querySelector(".cerrar-form").addEventListener("click",function(){
     const conten=document.querySelector(".cont-formulario")
     conten.classList.toggle("ocultar")
 })
-
+/**/
 // Proceso de validacion del login
 async function AperturaData(email, password){
     const response= await fetch("../data/login_test.json")
