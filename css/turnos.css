@@ -1,3 +1,8 @@
 .custom-modify-navbar{
     justify-content: end;
   }
+
+  
+.nav-item>a:hover{
+    color: white !important;
+  }

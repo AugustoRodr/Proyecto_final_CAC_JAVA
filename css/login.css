@@ -28,6 +28,13 @@
     color: black;
     cursor: pointer;
   }
+
+  .cont-formulario>.formulario-login{
+    background-color: #ffffffbb;
+    padding: 1.5em;
+    border: 2px solid black;
+    border-radius: 10%;
+  }
   
   .cont-formulario.ocultar{
     opacity: 0;
