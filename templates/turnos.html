@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/turnos.css">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/turnos.css" />
+    <link rel="stylesheet" href="../css/login.css" />
 
     <script src="../js/bootstrap.js" defer></script>
     <script src="../js/login.js" defer></script>
@@ -36,33 +36,48 @@
               <!-- Agregar funcionalidad a Iniciar Sesion -->
               <li class="nav-item">
                 <a class="nav-link active" href="#" id="open-login"
-                  >Iniciar Sesion</a>
+                  >Iniciar Sesion</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Espacialidades</a>
+                <a class="nav-link active" href="./especialidades.html">Espacialidades</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#sedes"
-                  >Sedes</a>
+                  >Sedes</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+    <!-- Login -->
     <div class="cont-formulario ocultar">
       <span class="cerrar-form">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcZJREFUSEuVlU1qAzEMhT8dYiDdt5AzlEBuUei60OuUrgs9zBRyh2y6D+QOKv6ZsWzLkzSbJHhG7+lJ71lYPwKo+68+KW/4vwRB0fxS+LpZdBMgHppqC0cPoIOyL8fDzK6jbin8u4OxdBnTKttwDGCtRDWZ0n5+7oYi2wCjoUWKdSM74FXgI0lez6DlaLmF30u11J92uu8QZpQn4B34MhANR0EcRTRvqwcQmP8Aj8Av8AxcBpu+9lajxiW2Z2sHsbjAo8IZ5CjopTinKGUHkTqoJYzvCIjRdwJOmfkZ4YByHXmoGku36mXplg2bBGaFPchZ0IOSit/j8KqDzMh6MTCfCcW7anb41SSljZyWig/guLdkToWeOl9kd4jFpBJ0mcEEOiPs0TBcDliJnALtptdbZmmV4U8apZI9aAVSSef4pm4nucxKVLoVJlROoMEDEUTg2oRnN/oqi7oh92tijRZAjovROsOu6dsHUCHl7KHALskVo+IN+PYzLE3aW1Mrix/F8AC8CHwmk/r8I8T4aMNJjjtHSezNYNxxE8ujBwtpTyK7anVGWf+MCDeSLjfaKFQsgH83bCV1vsNdLl3lbP274s3cWfAHrXXPJIgEVo0AAAAASUVORK5CYII="/>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcZJREFUSEuVlU1qAzEMhT8dYiDdt5AzlEBuUei60OuUrgs9zBRyh2y6D+QOKv6ZsWzLkzSbJHhG7+lJ71lYPwKo+68+KW/4vwRB0fxS+LpZdBMgHppqC0cPoIOyL8fDzK6jbin8u4OxdBnTKttwDGCtRDWZ0n5+7oYi2wCjoUWKdSM74FXgI0lez6DlaLmF30u11J92uu8QZpQn4B34MhANR0EcRTRvqwcQmP8Aj8Av8AxcBpu+9lajxiW2Z2sHsbjAo8IZ5CjopTinKGUHkTqoJYzvCIjRdwJOmfkZ4YByHXmoGku36mXplg2bBGaFPchZ0IOSit/j8KqDzMh6MTCfCcW7anb41SSljZyWig/guLdkToWeOl9kd4jFpBJ0mcEEOiPs0TBcDliJnALtptdbZmmV4U8apZI9aAVSSef4pm4nucxKVLoVJlROoMEDEUTg2oRnN/oqi7oh92tijRZAjovROsOu6dsHUCHl7KHALskVo+IN+PYzLE3aW1Mrix/F8AC8CHwmk/r8I8T4aMNJjjtHSezNYNxxE8ujBwtpTyK7anVGWf+MCDeSLjfaKFQsgH83bCV1vsNdLl3lbP274s3cWfAHrXXPJIgEVo0AAAAASUVORK5CYII="
+        />
         Volver
       </span>
       <form action="" method="get" class="formulario-login">
         <h2>Iniciar Sesion</h2>
         <div class="form-floating mb-3">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
           <label for="floatingInput">Email</label>
         </div>
         <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+          />
           <label for="floatingPassword">Password</label>
         </div>
         <div class="btn-group" role="group" aria-label="Basic example">
@@ -72,8 +87,9 @@
       </form>
     </div>
 
-    <section class="container text-center">
-      <form action="" method="get">
+    <section class="container text-center row">
+
+      <form action="" method="get" class="col">
         <select class="form-select" aria-label="Default select example">
           <option selected>Seleccione una especialidad</option>
           <!-- Agregar opciones con js -->
@@ -95,9 +111,38 @@
           <option value="2">Tarde</option>
           <option value="3">Noche</option>
         </select>
+        <div class="botones">
+          <button type="button">Buscar</button>
+          <button type="reset">Limpiar</button>
+        </div>
       </form>
 
+      <div class="resultado-filtro col list-group">
+        <!-- el h4 cambia segun la localidad seleccionada -->
+        <h4>Localidad</h4>
+        <button type="button" class="list-group-item list-group-item-action">
+          Especialidad | Horario
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">
+          Especialidad | Horario
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">
+          Especialidad | Horario
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">
+          Especialidad | Horario
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">
+          Especialidad | Horario
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">
+          Especialidad | Horario
+        </button><button type="button" class="list-group-item list-group-item-action">
+          Especialidad | Horario
+        </button>
+        
+      </div>
     </section>
-
   </body>
 </html>
+
