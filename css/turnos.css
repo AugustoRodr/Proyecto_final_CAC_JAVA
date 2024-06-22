@@ -1,7 +1,13 @@
 
 body{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url("../mulimedia/imgs/fondo-turnos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* justify-content: center; */
   /* align-items: center; */
 }
@@ -15,16 +21,17 @@ body{
   }
 
   section{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.815);
     width: 60vw !important;
     height: 50vh;
-    padding: 0 !important;
+    padding: 1.5em .5em !important;
     justify-self: center;
     align-items: center;
 
     margin-left: 21% !important;
-    margin-top: 5% !important;
+    margin-top: 8% !important;
 
   }
 
@@ -36,11 +43,16 @@ body{
     }
   }
 
-  section>form{
+  section>.formulario{
     /* border: 1px solid red; */
     padding: 2em 0;
     /* height: 100%; */
   }
+
+  .formulario>.botones{
+    margin-top: 1.5em;
+  }
+
   section>.resultado-filtro{
     /* border: 2px solid green; */
     margin: 0;

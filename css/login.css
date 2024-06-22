@@ -10,6 +10,7 @@
     justify-content: center;
     /* background-color: rgb(66, 204, 197); */
     background-image: url("../mulimedia/imgs/fondo-login.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 2;
