@@ -11,12 +11,12 @@ document.querySelector(".cerrar-form").addEventListener("click",function(){
 /**/
 // Proceso de validacion del login
 async function AperturaData(email, password){
-    const response= await fetch("../data/login_test.json")
+    const response= await fetch("https://raw.githubusercontent.com/AugustoRodr/Proyecto_final_CAC_JAVA/master/data/login_test.json")
     const cuentas= await response.json()
     // console.log(cuentas.accounts)
 
     let valido=ValidacionLogin(email,password,cuentas.accounts)
-    console.log(valido)
+    // console.log(valido)
     if(valido){
         alert("Ingreso a la cuenta.")
     }else{
