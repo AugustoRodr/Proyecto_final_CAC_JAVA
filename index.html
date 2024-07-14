@@ -38,17 +38,24 @@
                 <a class="nav-link active" href="./templates/turnos.html"
                   >Turnos</a>
               </li>
-              <!-- Agregar funcionalidad a Iniciar Sesion -->
-              <li class="nav-item">
-                <a class="nav-link active" href="#" id="open-login"
-                  >Iniciar Sesion</a>
-              </li>
               <li class="nav-item">
                 <a class="nav-link active" href="./templates/especialidades.html">Espacialidades</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#sedes"
-                  >Sedes</a>
+                >Sedes</a>
+              </li>
+              <!-- Agregar funcionalidad a Iniciar Sesion -->
+              <li class="nav-item content-login">
+                <a class="nav-link active" href="#" id="open-login"
+                  >Iniciar Sesion</a>
+              </li>
+              <li class=" nav-item dropstart content-cardUser hiddenUser">
+                <a class="nav-link active dropdown-toggle card-user" data-bs-toggle="dropdown" href="#"
+                ><img src="./mulimedia/imgs/user-icon-24.png" alt="">targeta usuario</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item cardUserSalir" href="#">Salir</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -75,6 +82,7 @@
           <button type="submit" class="btn btn-primary">Ingresar</button>
           <button type="reset" class="btn btn-primary">Limpiar</button>
         </div>
+        <span class="linkRegistrarme"><a href="#">¿Quiero registrarme?</a></span>
       </form>
     </div>
     <main>

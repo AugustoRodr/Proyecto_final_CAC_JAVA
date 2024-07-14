@@ -20,24 +20,43 @@
     visibility: none;
     transition: all 0.3s ease;
   }
-  
-  .cont-formulario>.cerrar-form{
-    position: absolute;
-    top: 2em;
-    left: 2em;
-    font-size: 1.2em;
-    color: black;
-    cursor: pointer;
-  }
 
-  .cont-formulario>.formulario-login{
-    background-color: #ffffffbb;
-    padding: 1.5em;
-    border: 2px solid black;
-    border-radius: 10%;
-  }
-  
-  .cont-formulario.ocultar{
-    opacity: 0;
-    visibility: hidden;
-  }
+.cont-formulario>.cerrar-form{
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  font-size: 1.2em;
+  color: black;
+  cursor: pointer;
+}
+
+.cont-formulario>.formulario-login{
+  background-color: #ffffffbb;
+  padding: 1.5em;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+.cont-formulario.ocultar{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.formulario-login{
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-login div:nth-child(4){
+  align-self: center;
+}
+
+.formulario-login>.linkRegistrarme{
+  align-self: center;
+}
+
+/* targeta usuario */
+
+.nav-item.hiddenUser{
+  display: none;
+}

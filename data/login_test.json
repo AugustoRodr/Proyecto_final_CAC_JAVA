@@ -1,14 +1,17 @@
 {
     "accounts":[
         {
+            "name":"Jose",
             "email":"jose.augus.1996@gmail.com",
             "password":"123456"
         },
         {
+            "name":"Arnold",
             "email":"arnold@gmail.com",
             "password":"5479"
         },
         {
+            "name":"Micaela",
             "email":"micaela@gmail.com",
             "password":"0011001"
         }
