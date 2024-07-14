@@ -21,9 +21,9 @@ document.querySelector(".dropdown-item.cardUserSalir").addEventListener("click",
 // Proceso de validacion del login
 async function AperturaData(email, password){
     // descomentar antes hacer push
-    // const response= await fetch("https://raw.githubusercontent.com/AugustoRodr/Proyecto_final_CAC_JAVA/master/data/login_test.json")
+    const response= await fetch("https://raw.githubusercontent.com/AugustoRodr/Proyecto_final_CAC_JAVA/master/data/login_test.json")
 
-    const response= await fetch("../data/login_test.json")
+    // const response= await fetch("../data/login_test.json")
     const cuentas= await response.json()
     // console.log(cuentas.accounts)
 
